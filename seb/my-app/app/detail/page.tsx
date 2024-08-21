@@ -4,7 +4,7 @@ import Styles from "./detail.module.css";
 export default function Home() {
   const value = "typescript 최고";
   const numList: number[] = [2, 3, 4, 5, 6, 7, 8, 9];
-  const nList: number[] = [1,2,3,4,5,6,7,8,9,10]
+  const nList: number[] = [1,2,3,4,5,6,7,8,9,]
 
   return (
     <div className={Styles.container}>
