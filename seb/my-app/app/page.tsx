@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className={Styles.container}>
         Hell world!
-        <h1 className={Styles.title}>더 큰거 온다</h1>
+        <h1 className={Styles.title}>조금 더 큰거 온다</h1>
         <h2>큰거 온다</h2>
       </div>
     </>
