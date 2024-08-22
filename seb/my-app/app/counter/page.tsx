@@ -6,7 +6,7 @@ import { useState } from "react"; //useState문
 export default function Counter() {
 
     const [value, setValue] = useState(0);
-                         //초기값
+
   //카운터의 기능
   // + > +1
   const plus = () => {
@@ -14,7 +14,7 @@ export default function Counter() {
   };
   // - > -1
   const minus = () => {
-    setValue(value - 1);
+    setValue(value - 1);    
   };
   // reset > 0
   const reset = () => {
@@ -35,4 +35,4 @@ export default function Counter() {
 
   );
 }
-//onClich : 버튼 누르면 괄호 안에 함수 표시
+//onClick : 버튼 누르면 괄호 안에 함수 표시
