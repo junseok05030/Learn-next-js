@@ -3,7 +3,13 @@ height: 100vh;
 padding: 20px;
 }
 
+button{
 
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+display: flex;
+}
 
 .title {
     font-size: x-large;
